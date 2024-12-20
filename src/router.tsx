@@ -95,7 +95,7 @@ export default function App(){
               },
               headerTransparent: false, // Şeffaf olmasın
               headerStyle: {
-                backgroundColor:colors.elevation_white, // Turuncu arka plan (isteğe göre değiştirilebilir)
+                backgroundColor:colors.elevation_white, 
               },
               headerLeft: () => (
                 <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10 }}>

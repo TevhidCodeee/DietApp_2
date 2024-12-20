@@ -16,8 +16,8 @@ const tips = [
     {
       id: '3',
       category: 'Zihinsel Sağlık',
-      title: 'Meditasyon yapın',
-      description: 'Meditasyon, stresi azaltır ve zihinsel dinginlik sağlar.',
+      title: 'Kuran okumak',
+      description: "Onlar iman eden ve gönülleri Allah'ın zikriyle sükûnete erenlerdir. Bilesiniz ki, kalpler ancak Allah'ı anmakla huzur bulur.(Ra'd Sûresi 28. âyet)",
       image: 'https://via.placeholder.com/150',
     },
   ];

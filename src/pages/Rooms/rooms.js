@@ -7,7 +7,6 @@ import styles from './roomsStyle'
 export default function Rooms() {
   const navigation = useNavigation();
 
-  // Kartlar için veriler
   const cards = [
     { id: 1, text: 'Diyet Planı', screen: 'DietPlans' },
     { id: 2, text: 'Hatırlatıcı', screen: 'MealReminder' },
@@ -21,7 +20,7 @@ export default function Rooms() {
         <RoomsCard
           key={card.id}
           rooms={card}
-          onPress={() => navigation.navigate(card.screen)} // İlgili ekrana yönlendirme
+          onPress={() => navigation.navigate(card.screen)} 
         />
       ))}
     </View>

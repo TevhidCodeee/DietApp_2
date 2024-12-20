@@ -16,7 +16,6 @@ export default function History() {
 
     const fetchData = async () => {
       try {
-        // Diet planlarını al
         const dietPlansSnapshot = await dietPlansRef.once('value');
         const dietPlansData = dietPlansSnapshot.val() || {};
         setDietPlans(dietPlansData);
@@ -29,7 +28,6 @@ export default function History() {
             return;
           }
 
-          // Verileri düzleştir ve diet plan bilgisini ekle
           const flattenedMeals = [];
           Object.entries(data).forEach(([parentKey, parentValue]) => {
             // Diet plan bilgisini al

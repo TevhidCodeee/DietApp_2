@@ -1,13 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { 
-  View, 
-  Text, 
-  TextInput, 
-  TouchableOpacity, 
-  FlatList, 
-  Platform, 
-  Alert 
-} from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, FlatList, Platform, Alert } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import firestore from '@react-native-firebase/firestore';
 import messaging from '@react-native-firebase/messaging';

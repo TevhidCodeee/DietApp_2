@@ -6,7 +6,7 @@ export default function parseContentData(data, isNestedStructure = false) {
 
   try {
     if (isNestedStructure) {
-      // History sayfası için iç içe yapı işleme
+      // History sayfası için iç içe yapı işledik
       const flattenedData = [];
       
       Object.keys(data).forEach(categoryKey => {
@@ -30,7 +30,7 @@ export default function parseContentData(data, isNestedStructure = false) {
 
       return flattenedData.sort((a, b) => new Date(b.date) - new Date(a.date));
     } else {
-      // Diet Plans sayfası için düz yapı işleme
+      // Diet Plans sayfası için 
       return Object.keys(data).map(key => ({
         id: key,
         ...data[key]

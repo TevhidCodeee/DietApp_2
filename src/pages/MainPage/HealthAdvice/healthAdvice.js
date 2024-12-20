@@ -8,7 +8,7 @@ const HealthyAdvice = () => {
 
   const categories = ['Tümü', 'Beslenme', 'Egzersiz', 'Zihinsel Sağlık'];
 
-  // Kategorilere göre filtreleme
+  // Kategorilere göre filtreledik
   const filteredTips =
     selectedCategory === 'Tümü'
       ? tips

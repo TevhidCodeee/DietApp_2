@@ -9,7 +9,6 @@ export default function MealPlannerModal({ visible, onClose, onSend }) {
     const [error, setError] = useState('');
 
     function handleSend() {
-        // Remove leading/trailing whitespace
         const trimmedText = text ? text.trim() : '';
         
         if (!trimmedText) {
